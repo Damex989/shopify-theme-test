@@ -1260,10 +1260,10 @@
     string-width "^2.0.0"
     strip-ansi "^3"
 
-"@plukke/gatsby-theme-shopify@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@plukke/gatsby-theme-shopify/-/gatsby-theme-shopify-1.0.9.tgz#76d1f578109ae57a58364861c54915a1a2d59b33"
-  integrity sha512-22ohIVP6nAi7A8KYczKItRISf0nKA6/yi+RjdiG4tcVn+57hwe2X6tDyzQ/Jtid78CmWcWEe/TSYHLExs75qJw==
+"@plukke/gatsby-theme-shopify@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@plukke/gatsby-theme-shopify/-/gatsby-theme-shopify-1.0.10.tgz#2123f9d45426b2dedbd3c34b27d82b0953e640ad"
+  integrity sha512-P0F8vGBLhfS/y2+tft7wTuqdE4TPJWHpz0dNMnlTwjkaegmtVk/YUp9Q4tW9WYu2zXSJHGOi4b9u3cfJECGxww==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
