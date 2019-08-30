@@ -1,6 +1,9 @@
 module.exports = {
 	siteMetadata: {
-		siteTitleAlt: 'TC Pork'
+		siteTitle: 'Luxury Outlet',
+		siteTitleAlt: 'Luxury Outlet by Plukke',
+		siteDescription: 'Lo mejor del gabacho a la puerta de tu casa.',
+		siteUrl: 'https://master.d1dmegs06soawa.amplifyapp.com'
 	},
 	plugins: [
 		{
