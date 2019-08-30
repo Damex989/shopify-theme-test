@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@plukke/gatsby-theme-shopify": "^1.0.12",
+    "@plukke/gatsby-theme-shopify": "^1.0.14",
     "gatsby": "^2.13.42",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

@@ -6,8 +6,8 @@ module.exports = {
 		{
 			resolve: '@plukke/gatsby-theme-shopify',
 			options: {
-				shopName: 'graphql',
-				accessToken: 'dd4d4dc146542ba7763305d71d1b3d38',
+				shopName: 'luxuryoutlet-mx',
+				accessToken: '7a58391353a4009f4ecaba0e90346a14',
 				imagesPath: 'src/images',
 				contentPath: 'data',
 				email: 'damex989@gmail.com',
