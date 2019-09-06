@@ -1,10 +1,14 @@
+require('dotenv').config({
+	path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
 	siteMetadata: {
 		siteTitle: 'Luxury Outlet',
 		siteTitleAlt: 'Luxury Outlet by Plukke',
 		siteDescription: 'Lo mejor en accesorios exclusiovos, al mejor precio directo a la puerta de tu casa.',
 		siteUrl: 'https://master.d1dmegs06soawa.amplifyapp.com',
-		siteImage: 'src/images/logo.png'
+		siteImage: 'logo'
 	},
 	plugins: [
 		{
@@ -23,7 +27,7 @@ module.exports = {
 				},
 				apiData: {
 					url: '/contactForm_submit',
-					baseURL: 'https://kwbbw9uwub.execute-api.us-east-1.amazonaws.com/default/',
+					baseURL: process.env.API_CONTACT_BASE_URL,
 					auth: {
 						username: process.env.API_USERNAME_SEND_EMAIL,
 						password: process.env.API_PASSWORD_SEND_EMAIL
