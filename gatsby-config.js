@@ -3,7 +3,8 @@ module.exports = {
 		siteTitle: 'Luxury Outlet',
 		siteTitleAlt: 'Luxury Outlet by Plukke',
 		siteDescription: 'Lo mejor en accesorios exclusiovos, al mejor precio directo a la puerta de tu casa.',
-		siteUrl: 'https://master.d1dmegs06soawa.amplifyapp.com'
+		siteUrl: 'https://master.d1dmegs06soawa.amplifyapp.com',
+		siteImage: 'src/images/logo.png'
 	},
 	plugins: [
 		{
