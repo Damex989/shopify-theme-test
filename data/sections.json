@@ -2,8 +2,8 @@
 	{
 		"id": "1",
 		"path": "/",
-		"title": "El mejor sabor del puerco en tu mesa",
-		"description": "Ofrecemos una variedad de carnes de cerdo cocidas (carnitas, chicharrón, quesadillas, vinagreta y carne envasada al vacío a su mesa con el mejor sabor de la cocina mexicana).",
+		"title": "Productos originales de las mejores marcas hasta la puerta de tu casa.",
+		"description": "Ofrecemos una gran variedad de accesorios de las mejores marcas de disenador y las llevamos hasta la puerta de tu casa en un plazo máximo de 2 días posteriores a la realización del pago.",
 		"textButton": "Comprar"
 	},
 	{
@@ -16,22 +16,22 @@
 		"id": "3",
 		"path": "/",
 		"title": "Proceso de compra",
-		"description": "descripción",
+		"description": "Tu pedido SIEMPRE se envia al día siguiente habil a tu pago.",
 		"steps": [
 			{
 				"icon": "hand-pointer",
 				"title": "Ordena",
-				"description": "Una breve descripción"
+				"description": "Selecciona tus productos favoritos"
 			},
 			{
 				"icon": "credit-card",
 				"title": "Confirma",
-				"description": "Una breve descripción"
+				"description": "Finaliza tu orden y llena tus datos de envió."
 			},
 			{
 				"icon": "truck",
 				"title": "Recibe",
-				"description": "Una breve descripción"
+				"description": "!Listo!, Recibe tu productos en la comodida de tu casa."
 			}
 		]
 	},
@@ -45,21 +45,14 @@
 		"id": "5",
 		"path": "/about-us",
 		"title": "Nosotros",
-		"description": "Descripción",
+		"description": "Somos la distribuidora de accesorios más exclusivos, elegantes y originales, exclusivamente en línea. Hacemos envíos a toda la República Mexicana.",
 		"image": "background_aboutUs"
 	},
 	{
 		"id": "6",
 		"path": "/about-us",
-		"title": "Titulo",
-		"description": "Descripción",
-		"image": "about-us-1"
-	},
-	{
-		"id": "7",
-		"path": "/about-us",
-		"title": "Titulo",
-		"description": "Descripción",
-		"image": "about-us-2"
+		"title": "Confianza",
+		"description": " Comprar con nosotros es seguro, garantizado y sencillo. Contamos con un amplio catálogo de productos el cual estaremos actualizando cada 2 meses.",
+		"image": "logo"
 	}
 ]

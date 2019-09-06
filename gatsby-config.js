@@ -2,7 +2,7 @@ module.exports = {
 	siteMetadata: {
 		siteTitle: 'Luxury Outlet',
 		siteTitleAlt: 'Luxury Outlet by Plukke',
-		siteDescription: 'Lo mejor del gabacho a la puerta de tu casa.',
+		siteDescription: 'Lo mejor en accesorios exclusiovos, al mejor precio directo a la puerta de tu casa.',
 		siteUrl: 'https://master.d1dmegs06soawa.amplifyapp.com'
 	},
 	plugins: [
@@ -13,12 +13,12 @@ module.exports = {
 				accessToken: '7a58391353a4009f4ecaba0e90346a14',
 				imagesPath: 'src/images',
 				contentPath: 'data',
-				email: 'damex989@gmail.com',
+				email: '',
 				headerImage: 'logo.png',
 				socialMedia: {
-					facebook: 'https://github.com/jlengstorf/gatsby-theme-jam-example',
-					instagram: 'https://help.shopify.com/en/api/reference/store-properties/shop#show-2019-07',
-					twitter: 'https://blog.logrocket.com/how-to-build-a-custom-gatsbyjs-theme-e9b9529f217b/'
+					facebook: '',
+					instagram: '',
+					twitter: ''
 				},
 				apiData: {
 					url: '/contactForm_submit',
@@ -28,6 +28,44 @@ module.exports = {
 						password: process.env.API_PASSWORD_SEND_EMAIL
 					}
 				}
+			}
+		},
+		{
+			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: `gatsby-starter-default`,
+				short_name: `Luxury outlet`,
+				start_url: `/`,
+				background_color: `#232129`,
+				theme_color: `#E4C581`,
+				display: `minimal-ui`,
+				icon: `src/images/icon.png` // This path is relative to the root of the site.
+			}
+		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				env: {
+					development: {
+						policy: [ { userAgent: '*', disallow: [ '/' ] } ]
+					},
+					production: {
+						policy: [ { userAgent: '*', allow: '/' } ]
+					}
+				}
+			}
+		},
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
+				trackingId: 'G-XL3TCTL560'
+			}
+		},
+		{
+			resolve: `gatsby-plugin-google-tagmanager`,
+			options: {
+				id: 'GTM-K8SD65X'
 			}
 		}
 	]
